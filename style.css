@@ -1,0 +1,132 @@
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+margin: 3.5rem 0 0 0;
+font-family: 'Poppins', sans-serif;
+font-size: .938rem;
+background: rgb(181, 68, 68); /* color de fondo */
+color: black; /* Color de texto predeterminado */
+}
+
+p{
+    font-size: clamp(12px, 4vw + 1rem, 16px);
+}
+
+h1 {
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 24px;
+            margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.swiper {
+    width: 100%;
+    padding: 150px 0 50px 0;
+}
+
+.swiper-slide {
+    width: 350px;
+    height: 500px;
+    background-color: #ad51b5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 110px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i {
+    font-size: 20px;
+    color: #FFB900;
+}
+
+.icons img {
+    width: 120px;
+}
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.product-txt span {
+    font-size: 25px;
+    color: #FFB900;
+    font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.product-txt p {
+    font-size: 14px;
+    color: #c4c4c4;
+}
+
+.product-img {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+h1{
+    color: #333;
+    font-weight: 600;
+    font-size: clamp(24px, 4vn + 1rem, 40px);
+}
+
+.product-img img {
+    width: 120px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid rgb(116, 0, 139);
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.btn-2 {
+    align-items: center;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 24px;
+            margin: 0px;
+}
